@@ -14,7 +14,7 @@ def post_web_hook():
     """
     Receive a POST request with information on the 
     webhook the service should send 
-    (headers, request type, POST body, URL params, etc) apple
+    (headers, request type, POST body, URL params, etc)
     """
     data = request.form.to_dict(flat=False)
     
