@@ -38,3 +38,9 @@ For example: `{'id': 596b7684-3ea1-4fad-8d2a-f23f421d5005}`
 RETURNS:
 
 `{'id': [HOOK_ID], 'request_payload': [WEBHOOK JOB CONFIGURATION]}`
+
+### Future TODO's
+
+-replace HOOK_MAP with a mongodb database
+-replace scheduler with a database version instead of in-memory as it currently is
+-implement more thorugh tests with mocking
